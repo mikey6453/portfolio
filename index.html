@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Michael Park — Portfolio</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <div id="app"></div>
+
+    <nav id="topnav" aria-label="Sections">
+      <button data-section="About"><span class="orn">✦</span>About</button>
+      <button data-section="Experience"><span class="orn">✦</span>Experience</button>
+      <button data-section="Projects"><span class="orn">✦</span>Projects</button>
+      <button data-section="Skills"><span class="orn">✦</span>Skills</button>
+      <button data-section="Contact"><span class="orn">✦</span>Contact</button>
+    </nav>
+
+    <div id="hint">click an element to explore · ← → to navigate · drag to look</div>
+
+    <div id="overlay" class="hidden" aria-hidden="true">
+      <div id="overlay-card">
+        <button id="overlay-close" aria-label="Close">×</button>
+        <h2 id="overlay-title"></h2>
+        <div id="overlay-content"></div>
+      </div>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
