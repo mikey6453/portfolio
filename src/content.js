@@ -97,8 +97,8 @@ export const content = {
       <p>I'm always up to talk about agent systems, evaluation tooling, or building things end-to-end.</p>
       <ul class="contact-list">
         <li><span>Email</span><a href="mailto:j.michael.park@gmail.com">j.michael.park@gmail.com</a></li>
-        <li><span>GitHub</span><a href="https://github.com/" target="_blank" rel="noopener">github.com</a></li>
-        <li><span>LinkedIn</span><a href="https://linkedin.com/" target="_blank" rel="noopener">linkedin.com</a></li>
+        <li><span>GitHub</span><a href="https://github.com/mikey6453" target="_blank" rel="noopener">github.com/mikey6453</a></li>
+        <li><span>LinkedIn</span><a href="https://www.linkedin.com/in/mikeypark/" target="_blank" rel="noopener">linkedin.com/in/mikeypark</a></li>
       </ul>
       <p class="muted">Based in Virginia · open to remote and on-site roles.</p>
     `,
